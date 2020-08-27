@@ -1,0 +1,19 @@
+---
+title: "Gerando_Summaries_com_Data_Summary"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Gerando_Summaries_com_Data_Summary}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(datasummary)
+```
