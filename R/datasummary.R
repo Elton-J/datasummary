@@ -1,6 +1,6 @@
-#' datasummary: Sumário de dados
+#' datasummary: Sumarios Numericos
 #'
-#' Gera sumários de data.frames
+#' Gera sumarios de data.frame e vetores
 #'
 #' @docType package
 #' @name datasummary
