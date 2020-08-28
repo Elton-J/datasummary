@@ -1,15 +1,9 @@
-
-#' Resumos Numéricos
-#'
-#' Resume os dados numéricos e retorna um quadro de dados contendo o valor mínimo, mediana, desvio padrão e valor máximo.
-#'
-#' @param x Um vetor numérico contendo os valores à serem resumidos.
-
-numeric_summary <- function(x, na.rm) {
+numeric_summary <-
+function(x, na.rm = T) {
   
   # Include an error if x is not numeric
   if(!is.numeric(x)){
-    stop("Data must be numeric")
+    stop("Argumento x deve ser numerico")
   }
   
   # Create data frame
