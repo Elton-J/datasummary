@@ -2,8 +2,10 @@
 % Please edit documentation in R/data_summary.R
 \name{data_summary}
 \alias{data_summary}
-\title{Sumario de Colunas Numericas
-Gera um sumario das colunas numericas de um data.frame}
+\title{Sumario de Colunas Numericas}
+\description{
+Gera um sumario das colunas numericas de um data.frame
+}
 \usage{
 data_summary(x, na.rm = TRUE)
 }

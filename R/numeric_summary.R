@@ -1,3 +1,25 @@
+#' Sumario de Vetor Numerico
+#' 
+#' Gera um sumario de um vetor numerico 
+#' 
+#' @param x Um vetor numerico 
+#' @param na.rm Logico, indicando se NAs devem ser removidos
+#' @import dplyr
+#' @import purrr
+#' @importFrom tidyr gather
+#' @export
+#' @examples
+#' numeric_summary(c(1:10))
+#' @return Essa funcao retorna um \code{data.frame} com as colunas: 
+#' \itemize{
+#'  \item min
+#'  \item median
+#'  \item sd
+#'  \item max
+#' }
+#' @author Elton J (elton.pdsj@gmail.com)
+#' @seealso \link[base]{summary}
+
 numeric_summary <-
 function(x, na.rm = T) {
   
