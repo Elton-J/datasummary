@@ -24,10 +24,6 @@ Essa funcao retorna um \code{data.frame} com as colunas:
 \item max
 }
 }
-\description{
-Sumario de Colunas Numericas
-Gera um sumario das colunas numericas de um data.frame
-}
 \examples{
 data_summary(iris)
 data_summary(airquality, na.rm = FALSE)
@@ -37,5 +33,5 @@ data_summary(airquality, na.rm = FALSE)
 \link[base]{summary}
 }
 \author{
-Elton J (elton.pdsj@gmail.com)
+Elton Junior(elton.pdsj@gmail.com)
 }
