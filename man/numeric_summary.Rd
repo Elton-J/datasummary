@@ -30,5 +30,5 @@ numeric_summary(c(1:10))
 \link[base]{summary}
 }
 \author{
-Elton J (elton.pdsj@gmail.com)
+Elton Junior (elton.pdsj@gmail.com)
 }
